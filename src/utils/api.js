@@ -16,7 +16,7 @@ const mockDB = {
     'EMP-001': { badgeNumber: 'EMP-001', firstName: 'Amina', lastName: 'Yusuf', role: 'Data and Research Analysts', phone: '08012345678' },
   },
   admins: {
-    'ADM-001': { pin: '123456', name: 'Grace Mwanret' },
+    'ADM-001': { pin: '748291', name: 'Grace Mwanret' },
   },
   staffLogs: [
     { id: 1, badgeNumber: 'EMP-001', name: 'Amina Yusuf', role: 'Data and Research Analysts', signIn: new Date(Date.now() - 86400000).toISOString(), signOut: new Date(Date.now() - 82800000).toISOString() },
